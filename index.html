@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div id="MainContainer">
+        <div class="alert"></div>
+        <h3 class="mainHeading">Expensive Tasker</h3>
+        <div id="expenseContainer">
+            <div id="balenceDiv">
+                <p class="headingtitle">YOUR BALANCE</p>
+                <h3 class="totalBalance">0.00</h3>
+            </div>
+            <div id="incomeExpenceDiv">
+                <div id="incomeAmout">
+                    <p class="headingtitle">INCOME</p>
+                   <h3 class="totalIncome">0.00</h3>
+                </div>
+                <hr>
+                <div id="expenseAmout">
+                    <p class="headingtitle">EXPENSE</p>
+                    <h3 class="totalExpense">0.00</h3>
+                </div>
+            </div>
+            <div id="historyDiv">
+                <div id="historyList">
+                    <h4 class="heading">History</h4>
+                    <hr>
+                    <div id="Main"></div>
+                </div>
+            </div>
+            <form id="formDiv" name="amountValidation">
+                <h4 class="heading">Add New Transection</h2>
+                    <hr>
+                <div id="amountDetail">
+                    <h5 class="TextStyle">Text</h5>
+                    <input type="text" class="Text" id="amountDetailInput" placeholder="Enter text">
+                </div>
+                <div id="amountDiv">
+                    <h5 class="TextStyle">Amount</h5>
+                    <h5 class="TextStyle">(negative-expensive,Positive-income)</h5>
+                    <input type="number" class="amount" id="amountInput" placeholder="Enter Amount">
+                    <div id="submitBtn">
+                        <input type="submit" id="addTransection" value="Add Transection" class="Btn">
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>

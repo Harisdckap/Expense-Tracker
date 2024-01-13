@@ -1,0 +1,180 @@
+body{
+    margin: 0 auto; 
+    max-width: 1440px; width: 100%;
+    display: flex; justify-content: center;
+    font-family: sans-serif;
+}
+/* Main Container */
+
+
+#MainContainer {
+    width: 35%;
+  
+}
+
+/* Heading And Font Styles*/
+
+h3.mainHeading {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: x-large;
+}
+p.headingtitle,.mainHeading{
+    font-weight: 1000;
+}
+h3.totalBalance {
+    font-size: 40px;
+    font-family: system-ui;
+    margin: 3px;
+}
+
+h5.TextStyle {
+    font-size: small;
+    color: #343333;
+    margin: 7px;
+    position: relative;
+    top: 3px;
+}
+h4.heading {
+    margin: 3px;
+    padding: 3px;
+    position: relative;
+    top: 7px;
+}
+
+/* Div Container */
+
+div#balenceDiv,#incomeExpenceDiv,#historyDiv,#formDiv {
+    width: 100%;
+}
+div#incomeExpenceDiv {
+    display: flex;
+    background-color: white;
+    box-shadow: 2px 2px 2px 2px gray;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    top: 2px;
+}
+div#expenseAmout,#incomeAmout {
+    margin: auto;
+    padding: 5px;
+}
+
+div#MainDetails {
+    display: flex;
+    justify-content: space-between;
+    background: white;
+    box-shadow: 2px 1px 1px 1px darkgray;
+    border: 1px solid gainsboro;
+    height: 45px;
+    margin-top: 8px;
+    cursor: pointer;
+}
+
+h3.totalIncome {
+    color: green;
+}
+h3.totalExpense {
+    color: red;
+}
+p.headingtitle{
+    padding: 0%;
+    margin: 0%;
+    font-size: smaller;
+}
+form#formDiv {
+    position: relative;
+    top: 3px;
+}
+
+/* Remove Btn */
+
+button.RemoveList {
+    width: 22px;
+    height: 23px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    background-color: red;
+    border: none;
+    align-items: center;
+    display: none;
+    position: relative;
+    top: 14px;
+    left: 0px;
+}
+
+/* Edit Button */
+
+
+button.EditButton {
+    width: 20px;
+    height: 36px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    top: 9px;
+    position: relative;
+    background-color: cornsilk;
+    color: black;
+    border: 1px solid;
+}
+
+
+/* Form Container */
+
+input#amountDiv,#amountDetail {
+    width: 100%;
+}
+
+input#amountDetailInput, #amountInput {
+    width: 100%;
+    border: none;
+    background: gainsboro;
+    height: 35px;
+}
+
+/* Btn Div */
+
+div#submitBtn {
+    width: 100%;
+}
+input#addTransection {
+    width: 100%;
+    margin: 0px;
+    position: relative;
+    top: 10px;
+    background: darkorchid;
+    border: none;
+    color: white;
+    height: 30px;
+}
+
+
+
+/* Class List */
+
+#MainDetails:hover .RemoveList {
+    display: block;
+}
+
+div#Main {
+    /* max-width: 100%; */
+    max-height: 150px;
+    overflow-y: auto; 
+    height: 100%; 
+    box-sizing: border-box;
+    position: relative;
+    bottom: 7px;
+}
+
+.RemoveList {
+    display: none;
+}
+
+
+
+
+
