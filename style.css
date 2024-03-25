@@ -2,16 +2,19 @@ body{
     margin: 0 auto; 
     max-width: 1440px; width: 100%;
     display: flex; justify-content: center;
-    font-family: sans-serif;
+    background-color: black;
+    font-family: "Fira Sans", sans-serif;
 }
 /* Main Container */
 
 
 #MainContainer {
     width: 35%;
-  
+    background-color: white;
+    margin-top: 4rem;
+    padding: 1rem 1rem 2rem 1rem;
+    border-radius: 10px;
 }
-
 /* Heading And Font Styles*/
 
 h3.mainHeading {
@@ -55,6 +58,7 @@ div#incomeExpenceDiv {
     text-align: center;
     position: relative;
     top: 2px;
+    width: 98%;
 }
 div#expenseAmout,#incomeAmout {
     margin: auto;
@@ -130,7 +134,7 @@ input#amountDiv,#amountDetail {
 }
 
 input#amountDetailInput, #amountInput {
-    width: 100%;
+    width: 97%;
     border: none;
     background: gainsboro;
     height: 35px;
@@ -146,10 +150,11 @@ input#addTransection {
     margin: 0px;
     position: relative;
     top: 10px;
-    background: darkorchid;
+    background: #51318b;
     border: none;
     color: white;
     height: 30px;
+    border-radius: 2px;
 }
 
 
